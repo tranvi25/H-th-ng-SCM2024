@@ -1,0 +1,30 @@
+Test Case cho Giải phương trình bậc nhất:
+
+Input: a = 0, b = 0
+Expected Output: Phương trình có vô số nghiệm.
+Input: a = 0, b != 0
+Expected Output: Phương trình vô nghiệm.
+Input: a != 0, b != 0
+Expected Output: Phương trình có nghiệm x = -b/a.
+Test Case cho Giải phương trình bậc hai:
+
+Input: a = 0, b = 0, c = 0
+Expected Output: Phương trình có vô số nghiệm.
+Input: a = 0, b = 0, c != 0
+Expected Output: Phương trình vô nghiệm.
+Input: a = 0, b != 0, c != 0
+Expected Output: Phương trình có nghiệm x = -c/b.
+Input: a != 0, b != 0, c != 0 và delta < 0
+Expected Output: Phương trình vô nghiệm.
+Input: a != 0, b != 0, c != 0 và delta = 0
+Expected Output: Phương trình có nghiệm kép x = -b/(2*a).
+Input: a != 0, b != 0, c != 0 và delta > 0
+Expected Output: Phương trình có 2 nghiệm riêng biệt, x1 và x2 được tính toán đúng.
+Test Case cho Lựa chọn chức năng:
+
+Input: Chọn 1 để giải phương trình bậc nhất
+Expected Output: Menu của phương trình bậc nhất được hiển thị và người dùng có thể nhập giá trị a và b.
+Input: Chọn 2 để giải phương trình bậc hai
+Expected Output: Menu của phương trình bậc hai được hiển thị và người dùng có thể nhập giá trị a, b và c.
+Input: Chọn số khác
+Expected Output: Chương trình thoát và hiển thị thông báo.
