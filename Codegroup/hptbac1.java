@@ -17,7 +17,7 @@ public class hptbac1 {
 			float x= (float)-b/a;
 			System.out.printf(" phương trình có nghiệm = %.3f ",x);
 		}
-		//vancheck    vvvv
+		//vancheck 7   vvvv
 	}
 
 }
